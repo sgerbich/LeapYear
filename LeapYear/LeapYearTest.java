@@ -23,4 +23,9 @@ public class LeapYearTest {
         Assert.assertTrue(LeapYear.multipleOnehundred(1400));
     }
 
+    @Test
+    public final void checkIfItsLeapYear(){
+        Assert.assertTrue(LeapYear.isLeapYear(2000));
+    }
+
 }

@@ -28,4 +28,21 @@ public class LeapYear{
         }
     }
 
+    public static boolean isLeapYear(int year){
+        if (multipleFour(year)){
+            if(multipleOnehundred(year)){
+                if(multipleFourhundred(year)){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else{
+                return true;
+            }
+
+        }else{
+            return false;
+        }
+    }
+
 }
