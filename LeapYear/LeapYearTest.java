@@ -18,6 +18,9 @@ public class LeapYearTest {
         Assert.assertTrue(LeapYear.multipleFourhundred(2000));
     }
 
-    
+    @Test
+    public final void checkIfItsAMultipleOf100(){
+        Assert.assertTrue(LeapYear.multipleOnehundred(1400));
+    }
 
 }
