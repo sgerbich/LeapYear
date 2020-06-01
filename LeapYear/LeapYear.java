@@ -12,5 +12,12 @@ public class LeapYear{
 
     }
 
+    public static boolean multipleFourhundred(int year){
+        if (year%400==0){
+            return true;
+        }else{
+            return false;
+        }
+    }
 
 }
